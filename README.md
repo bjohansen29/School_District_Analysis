@@ -8,8 +8,8 @@ This analysis was performed on behalf of client PyCity School District in order 
 # Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 
 How is the district summary affected?
-
-
+![District_Summary_original](District_Summary_original.png)
+![District_Summary](District_Summary.png)
 How is the school summary affected?
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 How does replacing the ninth-grade scores affect the following:
