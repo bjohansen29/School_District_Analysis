@@ -8,8 +8,20 @@ This analysis was performed on behalf of client PyCity School District in order 
 # Results: Using bulleted lists and images of DataFrames as support, address the following questions.
 
 How is the district summary affected?
+
+The original summary of reading and math scores by district shows the following:
+
+### Original District Summary
 ![District_Summary_original](District_Summary_original.png)
+
+After removal of the anomalous scores (students in 9th grade at Thomas High School), the scores show the following.
+
+### Updated District Summary
 ![District_Summary](District_Summary.png)
+
+Overall,  district averages trended upward very slightly after the removal of the anomalous scores.
+
+
 How is the school summary affected?
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 How does replacing the ninth-grade scores affect the following:
