@@ -3,7 +3,7 @@
 
 # Overview of the school district analysis: Explain the purpose of this analysis.
 
-This analysis was performed on behalf of client PyCity School District in order to look deeper into factors that may affect reading and math scores at individual schools within the district. Upon discovery of anomalous scores within one grade at one school, further analysis was performed re-examining scores across the district with the removal of the anomalies.
+This analysis was performed on behalf of client PyCity School District in order to look deeper into factors that may affect reading and math scores at individual schools within the district. Upon discovery of anomalous scores within one grade at one school, further analysis was performed re-examining scores across the district with the removal of the scores from one sub-group.
 
 # Results
 
@@ -18,7 +18,8 @@ After removal of the anomalous scores (students in 9th grade at Thomas High Scho
 ### Updated District Summary
 ![District_Summary](District_Summary.png)
 
-Overall,  district averages trended upward very slightly after the removal of the anomalous scores.
+Overall, the removal of the anomalous scores showed only a small effect on the district summary. Average math scores went down slightly, from 79.0 to 78.9. Without conducting an analysis on the statistical significance of scores, it is difficult to say whether this shift is or is not within the expected range.
+
 
 ## Effects on Per School Summary
 The original summary of reading and math scores by school shows the following:
@@ -31,10 +32,16 @@ After removal of the anomalous scores (students in 9th grade at Thomas High Scho
 ### Updated School Summary
 ![Per_School_Summary](Per_School_Summary.png)
 
-The removal of the anomalous 9th grade scores from Thomas High School brings about a significant increase in their reading, math, and overall passing student levels.
+As expected, the updates to the data set show no effect on any school other than Thomas High School. The removal of the anomalous 9th grade scores from Thomas High School brings about a significant increase in their reading, math, and overall passing student percentages, while leaving average scores relatively unchanged.
+- Average Math Scores- shift from 83.36 to 83.42
+- Average Reading Scores- shift from 83.90 to 83.85
+- % Passing Math- shift from 66.9% to 93.3%
+- % Passing Reading- shift from 69.7% to 97.3%
+- % Overall Passing- shift from 65.1% to 91.0%
+
 
 ## Effects on Thomas High School Placement
-In the original set of data, Thomas High School's performance was low in comparison to other schools. After removing the anomalous data, Thomas High School performs second among the fifteen schools analyzed.
+Given that the analysis request for a ranking of schools was based on average scores, Thomas High School's ranking as 2nd remained the same after the data set was updated.
 
 ### Updated List of Top 5 Schools
 ![Top_5_Schools](Top_5_Schools.png)
@@ -42,8 +49,9 @@ In the original set of data, Thomas High School's performance was low in compari
 ### Updated List of Bottom 5 Schools
 ![Bottom_5_Schools](Bottom_5_Schools.png)
 
-## Effects on Reading Scores by Grade
-The original reading scores by grade were as follows:
+
+## Effects on Reading and Math Scores by Grade
+Overall reading and math scores when broken out by school and grade remain unaffected. The largest difference in the data set is that the updated frames show the anomalous group of students with "NaN" rather than a score in both the reading and math frames.
 
 ### Original Reading Scores by Grade
 ![Reading_Scores_By_Grade_original](Reading_Scores_By_Grade_original.png)
@@ -53,9 +61,6 @@ Updated reading scores by grade were as follows:
 ### Updated Reading Scores by Grade
 ![Reading_Scores_By_Grade](Reading_Scores_By_Grade.png)
 
-## Effects on Math Scores by Grade
-The original math scores by grade were as follows:
-
 ### Original Math Scores by Grade
 ![Math_Scores_By_Grade_original](Math_Scores_By_Grade_original.png)
 
@@ -63,6 +68,7 @@ Updated math scores by grade were as follows:
 
 ### Updated Math Scores by Grade
 ![Math_Scores_By_Grade](Math_Scores_By_Grade.png)
+
 
 ## Effects on Scores by School Spending
 The original breakdown of scores by school spending levels was as follows:
@@ -74,6 +80,7 @@ Updated scores by school spending levels were as follows:
 
 ### Updated Scores by School Spending
 ![Scores_By_School_Spending](Scores_By_School_Spending.png)
+
 
 
 ## Effects on Scores by School Size
