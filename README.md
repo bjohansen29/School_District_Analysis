@@ -33,11 +33,11 @@ After removal of the anomalous scores (students in 9th grade at Thomas High Scho
 ![Per_School_Summary](Per_School_Summary.png)
 
 As expected, the updates to the data set show no effect on any school other than Thomas High School. The removal of the anomalous 9th grade scores from Thomas High School brings about a significant increase in their reading, math, and overall passing student percentages, while leaving average scores relatively unchanged.
-- Average Math Scores- shift from 83.36 to 83.42
-- Average Reading Scores- shift from 83.90 to 83.85
-- % Passing Math- shift from 66.9% to 93.3%
-- % Passing Reading- shift from 69.7% to 97.3%
-- % Overall Passing- shift from 65.1% to 91.0%
+- Average Math Scores- negligible shift from 83.36 to 83.42
+- Average Reading Scores- negligible shift from 83.90 to 83.85
+- % Passing Math- shift upward from 66.9% to 93.3%
+- % Passing Reading- shift upward from 69.7% to 97.3%
+- % Overall Passing- shift upward from 65.1% to 91.0%
 
 
 ## Effects on Thomas High School Placement
@@ -71,6 +71,8 @@ Updated math scores by grade were as follows:
 
 
 ## Effects on Scores by School Spending
+No changes in the effects on scores when sliced by school spending levels were apparent. The affected high school fell into the category of "$630-644", and the data remained unchanged before and after the removal.
+
 The original breakdown of scores by school spending levels was as follows:
 
 ### Original Scores by School Spending
@@ -84,6 +86,8 @@ Updated scores by school spending levels were as follows:
 
 
 ## Effects on Scores by School Size
+No changes in the effects on scores when sliced by size were apparent. The affected high school fell into the category of "Medium (1000-2000)", and the data remained unchanged before and after the removal.
+
 The original breakdown of scores by school size was as follows:
 
 ### Original Scores by School Size
@@ -96,6 +100,8 @@ Updated scores by school size were as follows:
 
 
 ## Effects on Scores by School Type
+No changes in the effects on scores when sliced by type were apparent. The affected high school fell into the category of "Charter", and the data remained unchanged before and after the removal.
+
 The original breakdown of scores by school type was as follows:
 
 ### Original Scores by School Type
@@ -107,4 +113,9 @@ Updated scores by school type were as follows:
 ![Scores_by_School_Type](Scores_by_School_Type.png)
 
 
-# Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+# Summary: 
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+In summary, a conclusion can be drawn that while the anomalous data showed no discernable effect on the district-wide reporting and analysis, there was a marked effect on any reporting and analysis to be done at the school level. Had an analysis of this type been used in order to target funds for schools in need of assistance, in order to target schools for additional or changes in staffing, or in order to evaluate schools for potential closure or re-districting, there could have been a dramatic mischaracterization of Thomas High School and its successes and struggles.
+
+Analyses such as this have many real-world consequences, affecting things like property values in the school district, district- and county-level elections, and even scholarship opportunities for students. 
